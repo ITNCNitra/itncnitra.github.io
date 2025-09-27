@@ -10,16 +10,16 @@ We use this repository to organize source code, documentation, and project asset
 <br>
 
 ## Getting Started
-### Clone the Repository
-```bash
-git clone --recurse-submodules https://github.com/your-org/itnc.git
-cd itnc
-```
-
-### Configure Git Identity (if not already set)
+### Configure Git Identity
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
+```
+
+### Clone the Repository
+```bash
+git clone --recurse-submodules https://github.com/Kemtan/ITNC
+cd itnc
 ```
 
 <br>
@@ -65,7 +65,3 @@ When the project is stable, open a Pull Request to merge it into `main`.
 ## License
 This repository is for ITNC extracurricular projects. Licensing terms may vary per project.  
 Check individual project folders for more details.
-
-   /\_/\
-  ( o.o )
-   > ^ <

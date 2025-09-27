@@ -1,18 +1,18 @@
 # Git Quick Guide
 This is a short reference for common Git commands: setting up identity, creating repositories, pushing to GitHub, and handling submodules.
 
-## Initialize a Repository
-```bash
-git init
-```
-Creates a new local repository in the current folder.
-
 ## Configure Identity
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 Sets your username and email for all repositories (remove `--global` to set only in the current repo).
+
+## Initialize a Repository
+```bash
+git init
+```
+Creates a new local repository in the current folder.
 
 ## Create Repository, Rename Branch, Push to GitHub
 ```bash

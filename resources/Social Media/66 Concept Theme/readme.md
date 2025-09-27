@@ -104,9 +104,17 @@ Ngoding, solving problem, sampai debugging tengah malam. Informatika balik lagi 
 
 
 # CONCEPT
-Concept 1:
+Concept 1: Wet Asphalt Reflecting Neon Lights City Night Raining
+- [link 1](https://www.dreamstime.com/photos-images/wet-asphalt-reflecting-neon-lights-city-night-rain-falling.html)
+- [link 2](https://www.google.com/search?tbnid=gf84cyaVGY2HlM&tbnh=0&tbnw=0&sca_esv=229f5e211f1b8dd0&lns_surface=19&authuser=0&biw=2560&bih=1315&cs=1&sxsrf=AE3TifPVoilZvwcr43vq9t9w00h4NWINow:1759001785734&udm=44&source=lns.web.gisivli&vsdim=297,170&gsessionid=fDnFD54wbqL1-Ba9_YXKpqdBwLj3CQvt6jNGjL_kS8Jz00z1sdN7XQ&lsessionid=jNNFE6oyUZvosXCBfGYFjv2XrS8YoqsJoQGxbCaqGQs_F25HfLK3xw&vsint=CAQqCgoCCAcSAggSIAE6IwoWDQAAAD8VAAAAPx0AAIA_JQAAgD8wARCgBhjJAyUAAIA_&lns_mode=mu&q=free+wallpaper&sa=X&ved=2ahUKEwjVj-Sk2PmPAxWN1jgGHR7RNX4Qs6gLegQIEhAB&vsrid=CPKIucigvZS5pwEQBRgBIiRGM0VFQjNCRi0yMTdCLTRDRDktQUQxOC1FNTYxOTUwRjg3QzMyBiICc2woIDif29n51_mPAw)
+
+![Concept](https://images.stockcake.com/public/1/c/e/1ce868a1-5012-47b0-ba02-954a7857ce96_large/neon-rain-reflection-stockcake.jpg)
+![Concept](https://c1.wallpaperflare.com/path/603/151/753/green-neon-night-photography-night-time-2cdf3747488c5436c7939f5b658b3103.jpg)
+
+Concept 2: Bold urban graffiti × Persona 5 × NFS Unbound aesthetic
+![Concept](https://external-preview.redd.it/Cm8isn_DxqMEY9HWDv_Y6O_ReCyU2z4q0zaf6HDVBNo.jpg?auto=webp&s=fbc34d1aa230c40dbbc91d973a1493406345c43e)
+Concept 3: Prototype (Gemini)
 ![Concept](img/concept1.png)
-Concept 2:
 ![Concept](img/concept2.png)
 
 # RESULT

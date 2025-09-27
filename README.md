@@ -7,6 +7,11 @@ This is where we store, manage, and collaborate on our extracurricular projects.
 ITNC is our school's extracurricular club focused on programming, electronics, robotics, and technology.  
 We use this repository to organize source code, documentation, and project assets.
 
+## Repository Structure
+- `projects/` → Contains individual project folders (e.g., robotics, web apps, IoT).
+- `docs/` → Documentation, guides, and tutorials.
+- `resources/` → Shared assets, libraries, and references.
+
 <br>
 
 ## Getting Started
@@ -21,13 +26,6 @@ git config --global user.email "you@example.com"
 git clone --recurse-submodules https://github.com/Kemtan/ITNC
 cd itnc
 ```
-
-<br>
-
-## Repository Structure
-- `projects/` → Contains individual project folders (e.g., robotics, web apps, IoT).
-- `docs/` → Documentation, guides, and tutorials.
-- `resources/` → Shared assets, libraries, and references.
 
 <br>
 

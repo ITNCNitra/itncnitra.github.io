@@ -4,6 +4,7 @@
 - Theme: **Bold urban graffiti × Persona 5 × NFS Unbound aesthetic**
 - Vibe: Hype, youthful, rebellious but still structured and readable
 - Purpose: Announce that the extracurricular (Esport, Robotics, Informatics/CS) is **active again on social media**
+- [Design on Canva](https://www.canva.com/design/DAG0Mpb2S5c/hyt_8yygyfRG_rgfy73qdw/edit?utm_content=DAG0Mpb2S5c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
@@ -26,11 +27,12 @@
 - **Graffiti Accent Palette (muted but lively)**:  
   - Pink: `#ff4fa1`  
   - Blue: `#3cb7ff`  
-  - Green: `#42ff73` (or lime variant `#7fbf4d` for less neon)  
+  - Green: `#42ff73` 
   - Red/Orange: `#ff5c36`  
   - Yellow: `#ffd447`  
   - Purple: `#9b59ff`  
   - Off-white: `#e4e2dd` (filler tags for balance)
+    * The full one is available on graffiti.md
 
 👉 Usage:  
 - 70% = off-white graffiti  
@@ -70,8 +72,8 @@ DEBUG · PUSH · PULL · MERGE · COMMIT · BRANCH · FORK · ALGO · O(N) · ST
 1. **Hierarchy first** → Bold Anton/Bebas anchors info, graffiti never competes.  
 2. **Graffiti limited** → 1–2 tags per panel, rotated from word bank.  
 3. **Colors disciplined** → Mostly off-white + one or two accents, avoid rainbow chaos.  
-4. **Icons tie identity** → Esport = controllers/headset, Robotics = gears/robot arm, Informatics = code brackets/terminals.  
-5. **Background muted** → Cyberpunk neon street (blurred/darkened), focus always on text.  
+4. **Icons tie identity** → Esport = controllers/headset, Robotics = gears/robot arm, Informatics = code brackets/terminals. ([source](https://www.svgrepo.com/)) 
+5. **Background muted** → Rainy cyberpunk neon street (blurred/darkened), focus always on text. ([source](https://stockcake.com/i/neon-rain-reflection_126555_14056))
 
 ---
 
@@ -80,42 +82,33 @@ DEBUG · PUSH · PULL · MERGE · COMMIT · BRANCH · FORK · ALGO · O(N) · ST
 - **Subheader**: “Extracurricular active again on socials”  
 - **Tagline**: “Esport · Robotics · Informatics/CS — all in.”  
 - **Graffiti add-ons**: “BOTZ”, “GG EZ”, “DEBUG”, “PLAY HARD” 
-    * The full one is available on graffiti.md
 
 # 📲 Instagram Post Concept (3×1 Split)
+## Post 1 — Robotics 🤖  
+"Dari gear sampai ngoding, kita bikin robot yang makin gokil. 🤖  
+Robotics balik lagi di feed kamu. Tungguin update, demo, sama behind-the-scenes seru dari lab kita! #BOTZ #RoboticsLife"  
 
 ---
 
-## Post 1 — Robotics 🤖
-**Main Subheader (Bebas Neue):** ROBOTICS  
-**Graffiti Tags (Sprite Graffiti / City Lights):** BOTZ, AI, GLITCH, UPLOAD  
-**Icons:** Gear, robotic arm, circuit lines  
-**Accent Color:** Purple (#b84fff)  
-**Description / Caption:**  
-"From gears to code, we’re building the future one bot at a time. 🤖  
-Robotics is back on your feed — expect more updates, demos, and behind-the-scenes looks from our lab. #BOTZ #RoboticsLife"  
-
----
-
-## Post 2 — Esport 🎮 (Center “WE ARE BACK!”)
-**Main Header (Anton):** WE ARE BACK!  
-**Subheader (Bebas Neue):** ESPORT  
-**Graffiti Tags (Blacktean / Beast):** CLUTCH, GG EZ, FRAG, MVP  
-**Icons:** Game controller, trophy, headset  
-**Accent Color:** Pink (#ff4fa1)  
-**Description / Caption:**  
-"We’re active again! 🚀  
-This account is officially back online — and we’re kicking it off with Esport. From scrims to tournaments, highlights to fails, stay tuned. 🎮  
+## Post 2 — Esport 🎮  
+"Kita balik aktif! 🚀  
+Akun ini udah online lagi. Mulai dengan Esport, dari scrim, turnamen, highlight sampai epic fail. Stay tuned! 🎮  
 #GG #EsportVibes"  
 
 ---
 
-## Post 3 — Programming 💻
-**Main Subheader (Bebas Neue):** INFORMATICS / CS  
-**Graffiti Tags (Seashore / Lifelogo):** DEBUG, COMMIT, RUN(), 404  
-**Icons:** Code brackets { }, terminal >, binary snippets  
-**Accent Color:** Green (#42ff73)  
-**Description / Caption:**  
+## Post 3 — Programming 💻  
 "Hello World 👋  
-Coding, problem-solving, and late-night debugging — Informatics is back with fresh updates on projects, tutorials, and memes only devs will get. 💻  
-#CodingLife #Informatics #WeCode"  
+Ngoding, solving problem, sampai debugging tengah malam. Informatika balik lagi bawa update project, tutorial, dan meme yang cuma anak dev ngerti. 💻  
+#CodingLife #Informatics #WeCode"
+
+
+# CONCEPT
+Concept 1:
+![Concept](img/concept1.png)
+Concept 2:
+![Concept](img/concept2.png)
+
+# RESULT
+Result:
+![Result](img/result.png)

@@ -7,3 +7,7 @@
     - serves little purpose, so we need to find other purpose of this server (e.g. project discussion, QnA with mentor, etc)
 - Make ITNC github repository (WIP):
     - make it more populated with docs, syllabus, projects, and other things
+- Make ITNC website:
+    - maybe just a github.io project which should be fun where everyone can contribute to the website.
+- Upload and setup robotics project (arduino and esp):
+    - via vscode and PlatformIO or Arduino IDE extension

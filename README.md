@@ -23,7 +23,7 @@ git config --global user.email "you@example.com"
 
 ### Clone the Repository
 ```bash
-git clone --recurse-submodules https://github.com/Kemtan/ITNC
+git clone https://github.com/ITNCNitra/ITNC.git
 cd itnc
 ```
 

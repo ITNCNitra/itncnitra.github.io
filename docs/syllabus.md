@@ -57,6 +57,11 @@ preference, but this is kemtan's timeline:
         - data scraping project
             - data via static file (html)
             - get data via api (didn't have time to share this yet)
+    - HTML, CSS, JS
+        - web development (make ITNC website or contribute here)
+            - explain HTML (structure)
+            - CSS (styling)
+            - JS (dynamic and function)
 
 > Thats all that i can share, i hope its helpful for future ITNC mentor, I wish u all the best
 

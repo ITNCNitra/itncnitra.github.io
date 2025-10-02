@@ -120,3 +120,8 @@ Concept 3: Prototype (Gemini)
 # RESULT
 Result:
 ![Result](img/result.png)
+
+# CREDIT
+- Theme and Concept: Kemtan
+- Logo: 
+- Ideas and help: ITNC and Friends

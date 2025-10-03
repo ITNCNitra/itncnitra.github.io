@@ -21,6 +21,11 @@ git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 ```
 
+### Setup Project Folder:
+- `di desktop bikin folder namanya "ITNC <bebas>"`
+- `di pathnya kalian ketik cmd`
+- `setelah cmd kebuka ketik code .`
+
 ### Clone the Repository
 ```bash
 git clone https://github.com/ITNCNitra/ITNC.git

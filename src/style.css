@@ -1,6 +1,17 @@
-h1 {
-    color: blue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-p {
-    font-size: 20px;
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://media.discordapp.net/attachments/1423555812248387725/1423579508509900851/IMG_20250929_152357.jpg?ex=68e0d33b&is=68df81bb&hm=c4b2fd90b012665fb0e943c0ed8a533dd22e658eb643625904dcd7f5bf1c6434&=&format=webp&width=486&height=647");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 10%;
+    overflow: hidden;
+
 }

@@ -33,12 +33,14 @@ git config --global user.email "you@example.com"
     ```
     git submodule update --remote --rebase
     ```
+    **Note:** rerun the cmd to update `docs/` submodule
 5. **Optional:** sync local files with remote (github):
     ```
     git fetch origin
     git pull
     ```
-    **Note:** read more about git cmd here [itncnitra.github.io\docs\docs\git.md](https://github.com/ITNCNitra/ITNC/blob/main/docs/git.md)
+    **Note:** rerun the command to pull latest commit,  
+    you can also read more about git cmd here [itncnitra.github.io\docs\docs\git.md](https://github.com/ITNCNitra/ITNC/blob/main/docs/git.md)
 
 <br>
 

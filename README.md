@@ -3,10 +3,10 @@ Welcome to the official ITNC Website repository.
 This is where we build and maintain the official website for the Informatics & Technology Club (ITNC).
 
 ## Repository Structure
+- `src/` → css, js, etc.
 - `docs/` submodule:
     - `docs/` → Documentation, guides, and tutorials.
     - `resources/` → Shared assets, libraries, and references.
-- `src/` → css, js, etc.
 
 ## Getting Started
 ### Download and Install Visual Studio Code and Git

@@ -8,7 +8,9 @@ This is where we build and maintain the official website for the Informatics & T
     - `docs/` → Documentation, guides, and tutorials.
     - `resources/` → Shared assets, libraries, and references.
 
-## Getting Started
+<br>
+
+# Getting Started
 ### Download and Install Visual Studio Code and Git
 - download and install VSCODE ([link](https://code.visualstudio.com/))
 - download and install Git ([Git](https://git-scm.com/downloads))     

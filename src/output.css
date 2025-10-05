@@ -9,8 +9,6 @@
       "Courier New", monospace;
     --color-black: #000;
     --spacing: 0.25rem;
-    --container-xs: 20rem;
-    --container-sm: 24rem;
     --font-weight-medium: 500;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -179,8 +177,17 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
+  .top-4 {
+    top: calc(var(--spacing) * 4);
+  }
+  .left-1\/2 {
+    left: calc(1/2 * 100%);
+  }
   .z-0 {
     z-index: 0;
+  }
+  .z-10 {
+    z-index: 10;
   }
   .z-\[1\] {
     z-index: 1;
@@ -188,17 +195,8 @@
   .mx-\[10px\] {
     margin-inline: 10px;
   }
-  .mx-auto {
-    margin-inline: auto;
-  }
-  .my-\[10\%\] {
-    margin-block: 10%;
-  }
   .my-\[50px\] {
     margin-block: 50px;
-  }
-  .mt-4 {
-    margin-top: calc(var(--spacing) * 4);
   }
   .flex {
     display: flex;
@@ -209,8 +207,14 @@
   .inline-flex {
     display: inline-flex;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-\[80\%\] {
+    width: 80%;
   }
   .w-\[90px\] {
     width: 90px;
@@ -221,8 +225,8 @@
   .w-fit {
     width: fit-content;
   }
-  .w-full {
-    width: 100%;
+  .max-w-\[90\%\] {
+    max-width: 90%;
   }
   .max-w-\[600px\] {
     max-width: 600px;
@@ -230,8 +234,15 @@
   .shrink-0 {
     flex-shrink: 0;
   }
+  .-translate-x-1\/2 {
+    --tw-translate-x: calc(calc(1/2 * 100%) * -1);
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
   .cursor-pointer {
     cursor: pointer;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -273,8 +284,11 @@
   .bg-\[\#161a20\] {
     background-color: #161a20;
   }
-  .bg-black {
-    background-color: var(--color-black);
+  .bg-black\/90 {
+    background-color: color-mix(in srgb, #000 90%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 90%, transparent);
+    }
   }
   .bg-\[linear-gradient\(45deg\,\#1dd82c\,\#0c472f\)\] {
     background-image: linear-gradient(45deg,#1dd82c,#0c472f);
@@ -300,9 +314,6 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
-  .px-\[10\%\] {
-    padding-inline: 10%;
-  }
   .px-\[30px\] {
     padding-inline: 30px;
   }
@@ -314,6 +325,9 @@
   }
   .py-\[80px\] {
     padding-block: 80px;
+  }
+  .text-center {
+    text-align: center;
   }
   .text-\[18px\] {
     font-size: 18px;
@@ -369,11 +383,31 @@
       display: flex;
     }
   }
+  .md\:text-left {
+    @media (width >= 48rem) {
+      text-align: left;
+    }
+  }
 }
 @layer base {
   html {
     font-family: "Poppins", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji";
   }
+}
+@property --tw-translate-x {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-y {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-translate-z {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
 }
 @property --tw-space-x-reverse {
   syntax: "*";
@@ -496,6 +530,9 @@
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
+      --tw-translate-x: 0;
+      --tw-translate-y: 0;
+      --tw-translate-z: 0;
       --tw-space-x-reverse: 0;
       --tw-leading: initial;
       --tw-font-weight: initial;

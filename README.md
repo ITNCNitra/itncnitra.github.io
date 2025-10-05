@@ -8,8 +8,6 @@ This is where we build and maintain the official website for the Informatics & T
     - `resources/` → Shared assets, libraries, and references.
 - `src/` → css, js, etc.
 
-<br>
-
 ## Getting Started
 ### Download and Install Visual Studio Code and Git
 - downlaod and install [VSCODE](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)

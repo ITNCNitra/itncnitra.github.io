@@ -47,11 +47,10 @@ git config --global user.email "you@example.com"
 <br>
 
 ## 🤝 Contributing
-Members of **ITNC** who want to contribute directly can request access to be added as a **collaborator** on this repository.  
+Members of **ITNC** who want to contribute directly can request access to be added as a **collaborator** on this repository.
 Just contact one of the maintainers or open an issue titled “Access Request.”
 
-For contributors **outside the organization**, you’re welcome to **fork** this repo and open a **Pull Request (PR)** with your improvements.  
-Make sure your changes are clear and follow our commit style (e.g., `feat:`, `fix:`, `docs:`).
+For contributors **outside the organization**, you’re welcome to **fork** this repo and open a **Pull Request (PR)** with your improvements. Make sure your changes are clear and follow our commit style (e.g., `feat:`, `fix:`, `docs:`).
 
 ### Basic steps for external contributors:
 1. Fork this repository  

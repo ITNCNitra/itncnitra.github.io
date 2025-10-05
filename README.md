@@ -35,12 +35,21 @@ git config --global user.email "you@example.com"
     code .
     ```
 4. Open new terminal in Visual Studio Code from the terminal bar at the top
-5. Pull `docs/` submodules files:
+5. **Optional (currently):** Pull `docs/` submodules files:
     ```
     git submodule update --remote --rebase
     ```
     **Note:** rerun the cmd to update `docs/` submodule
-5. **Optional:** sync local files with remote (github):
+6. install deps:
+    ```
+    npm install
+    ```
+7. run/build tailwind:
+    ```
+    npx @tailwt.css -o ./src/output.css --watch      #run this when developing
+    npx @tailwt.css -o ./src/output.css --minify     #run this when building (before adding output.css and committing)
+    ```
+8. **Optional:** sync local files with remote (github):
     ```
     git fetch origin
     git pull
@@ -88,5 +97,6 @@ When the project is stable, open a Pull Request to merge it into `main`.
 
 ## Contribution Guidelines
 1. Always create a new branch for your project or feature (`git checkout -b project-name` or `feature-name`).
-2. Write clear, descriptive commit messages.
-3. Push your branch and open a Pull Request when ready to merge into `main`.
+2. Always build first before adding output.css, deployments breaks without it.
+3. Write clear, descriptive commit messages.
+4. Push your branch and open a Pull Request when ready to merge into `main`.

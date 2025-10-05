@@ -12,7 +12,6 @@ Di sinilah kami membangun dan memelihara situs web resmi ITNC.
 * [Inggris](https://github.com/ITNCNitra/itncnitra.github.io/blob/main/README.md)
 * [Indonesia](https://github.com/ITNCNitra/itncnitra.github.io/blob/main/README-ID.md)
 
-
 <br>
 
 # Memulai
@@ -36,12 +35,21 @@ git config --global user.email "anda@example.com"
     code .
     ```
 4. Buka terminal baru di Visual Studio Code melalui menu terminal di atas
-5. Tarik file `docs/` submodule:
+5. **Opsional (saat ini):** Tarik file `docs/` submodule:
     ```
     git submodule update --remote --rebase
     ```
     **Catatan:** jalankan kembali perintah ini untuk memperbarui submodule `docs/`
-6. **Opsional:** sinkronkan file lokal dengan remote (GitHub):
+6. Instal dependensi:
+    ```
+    npm install
+    ```
+7. Jalankan/build Tailwind:
+    ```
+    npx @tailwt.css -o ./src/output.css --watch      # jalankan saat pengembangan
+    npx @tailwt.css -o ./src/output.css --minify     # jalankan saat build (sebelum menambahkan output.css dan commit)
+    ```
+8. **Opsional:** sinkronkan file lokal dengan remote (GitHub):
     ```
     git fetch origin
     git pull
@@ -86,5 +94,6 @@ Ketika proyek sudah stabil, buka Pull Request untuk digabungkan ke `main`.
 
 ## Panduan Kontribusi
 1. Selalu buat branch baru untuk proyek atau fitur Anda (`git checkout -b nama-proyek` atau `nama-fitur`).  
-2. Tulis pesan commit yang jelas dan deskriptif.  
-3. Push branch Anda dan buka Pull Request ketika siap digabung ke `main`.
+2. Selalu lakukan build sebelum menambahkan output.css, proses deployment akan gagal tanpanya. 
+3. Tulis pesan commit yang jelas dan deskriptif.  
+4. Push branch Anda dan buka Pull Request ketika siap digabung ke `main`.

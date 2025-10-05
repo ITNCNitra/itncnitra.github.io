@@ -15,7 +15,7 @@
 	<!-- Content wrapper -->
 	<div class="relative z-[1]">
     <nav class="fixed top-4 left-1/2 -translate-x-1/2 w-[80%] z-10">
-			<div class="h-[80px] md:h-[100px] bg-black/90 backdrop-blur rounded-[50px] px-[16px] md:px-[60px] flex items-center justify-between shadow-lg">
+			<div class="h-[80px] md:h-[100px] bg-black rounded-[50px] px-[16px] md:px-[60px] flex items-center justify-between shadow-lg">
 
 				<!-- Logo -->
 				<a href="https://itncnitra.github.io" class="shrink-0">
@@ -33,12 +33,15 @@
 				</button>
 
 				<!-- Main Nav (desktop) -->
-				<div class="hidden lg:flex items-center space-x-[30px]">
-					<ul class="flex items-center space-x-[30px] absolute left-1/2 -translate-x-1/2">
+				<div class="hidden lg:flex items-center justify-between w-full">
+					<!-- Center links -->
+					<ul class="flex flex-1 justify-center gap-[30px]">
 						<li><a href="#" class="text-[#FAF9F6] font-medium text-[18px] transition duration-500">Home</a></li>
 						<li><a href="#" class="text-[#FAF9F6] font-medium text-[18px] transition duration-500">About Us</a></li>
 						<li><a href="#" class="text-[#FAF9F6] font-medium text-[18px] transition duration-500">Contact</a></li>
 					</ul>
+
+					<!-- Right buttons -->
 					<div class="flex gap-3">
 						<a href="https://github.com/ITNCNitra/ITNC/tree/main/docs"
 							class="relative inline-flex items-center justify-center rounded-[1000px] p-[2px] bg-[linear-gradient(45deg,#1dd82c,#0c472f)]">
@@ -54,7 +57,6 @@
 						</a>
 					</div>
 				</div>
-			</div>
 
 			<!-- Mobile Menu -->
 			<div id="menu" class="lg:hidden hidden mt-3 bg-black/90 backdrop-blur rounded-[30px] p-4 text-center space-y-4">

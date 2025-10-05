@@ -10,9 +10,8 @@ This is where we build and maintain the official website for the Informatics & T
 
 ## Getting Started
 ### Download and Install Visual Studio Code and Git
-- downlaod and install [VSCODE](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
-- download and install [Git](https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.2/Git-2.51.0.2-64-bit.exe)     
-    **Note:** you can also install it from the official website by yourself
+- download and install VSCODE ([link](https://code.visualstudio.com/))
+- download and install Git ([Git](https://git-scm.com/downloads))     
 
 ### Configure Git Identity
 ```bash
@@ -21,20 +20,20 @@ git config --global user.email "you@example.com"
 ```
 
 ### Setup Project Folder
-- On your desktop, create a new folder named **"ITNC (anything you want)"**  
-- In the folder path bar, type **cmd** and press Enter  
-- Once Command Prompt opens, clone the Repository and open the folder in Visual Studio Code:
+1. On your desktop, create a new folder named **"ITNC (anything you want)"**  
+2. Open the folder and in the folder path bar, type **cmd** and press Enter  
+3. Once Command Prompt opens, clone the Repository and open the folder in Visual Studio Code:
     ```bash
     git clone https://github.com/ITNCNitra/itncnitra.github.io.git
     cd itncnitra.github.io
     code .
     ```
-- Open integrated terminal in Visual Studio Code from the terminal bar at the top
-- pull `docs/` submodules files:
+4. Open new terminal in Visual Studio Code from the terminal bar at the top
+5. Pull `docs/` submodules files:
     ```
     git submodule update --remote --rebase
     ```
-- sync local with remote (github):
+5. **Optional:** sync local files with remote (github):
     ```
     git fetch origin
     git pull

@@ -8,6 +8,11 @@ Di sinilah kami membangun dan memelihara situs web resmi ITNC.
     - `docs/` → dokumentasi, panduan, dan tutorial.
     - `resources/` → aset bersama, pustaka, dan referensi.
 
+## Pilihan Bahasa
+* [Inggris](https://github.com/ITNCNitra/itncnitra.github.io/blob/main/README.md)
+* [Indonesia](https://github.com/ITNCNitra/itncnitra.github.io/blob/main/README-ID.md)
+
+
 <br>
 
 # Memulai

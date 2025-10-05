@@ -8,6 +8,10 @@ This is where we build and maintain the official website for the Informatics & T
     - `docs/` → Documentation, guides, and tutorials.
     - `resources/` → Shared assets, libraries, and references.
 
+## Language Preference
+* [English](https://github.com/ITNCNitra/itncnitra.github.io/blob/main/README.md)
+* [Indonesian](https://github.com/ITNCNitra/itncnitra.github.io/blob/main/README-ID.md)
+
 <br>
 
 # Getting Started

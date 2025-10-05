@@ -46,8 +46,8 @@ git config --global user.email "anda@example.com"
     ```
 7. Jalankan/build Tailwind:
     ```
-    npx @tailwt.css -o ./src/output.css --watch      # jalankan saat pengembangan
-    npx @tailwt.css -o ./src/output.css --minify     # jalankan saat build (sebelum menambahkan output.css dan commit)
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch      # jalankan saat pengembangan
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify (sebelum menambahkan output.css dan commit)
     ```
 8. **Opsional:** sinkronkan file lokal dengan remote (GitHub):
     ```

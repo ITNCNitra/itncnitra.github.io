@@ -46,8 +46,8 @@ git config --global user.email "you@example.com"
     ```
 7. run/build tailwind:
     ```
-    npx @tailwt.css -o ./src/output.css --watch      #run this when developing
-    npx @tailwt.css -o ./src/output.css --minify     #run this when building (before adding output.css and committing)
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch      #run this when developing
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify     #run this when building (before adding output.css and committing)
     ```
 8. **Optional:** sync local files with remote (github):
     ```

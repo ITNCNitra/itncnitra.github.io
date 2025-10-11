@@ -28,13 +28,14 @@ git config --global user.email "you@example.com"
 ### Setup Project Folder
 1. On your desktop, create a new folder named **"ITNC (anything you want)"**  
 2. Open the folder and in the folder path bar, type **cmd** and press Enter  
+![A demo of opening a cmd from the path in file explorer](/src/media/open-cmd%20-%20Made%20with%20Clipchamp.gif)
 3. Once Command Prompt opens, clone the Repository and open the folder in Visual Studio Code:
     ```bash
     git clone https://github.com/ITNCNitra/itncnitra.github.io.git
     cd itncnitra.github.io
     code .
     ```
-4. Open new terminal in Visual Studio Code from the terminal bar at the top
+4. Open new terminal in Visual Studio Code from the terminal bar at the top, or use the shortcut <kbd>Ctrl</kbd> + <kbd>`</kbd>.
 5. **Optional (currently):** Pull `docs/` submodules files:
     ```
     git submodule update --remote --rebase

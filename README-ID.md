@@ -28,13 +28,14 @@ git config --global user.email "anda@example.com"
 ### Menyiapkan Folder Proyek
 1. Di desktop, buat folder baru bernama **"ITNC (bebas)"**  
 2. Buka foldernya lalu di kolom path, ketik **cmd** dan tekan Enter  
+![Demo membuka cmd dari path file explorer](/src/media/open-cmd%20-%20Made%20with%20Clipchamp.gif)
 3. Setelah Command Prompt terbuka, klon repositori dan buka di Visual Studio Code:
     ```bash
     git clone https://github.com/ITNCNitra/itncnitra.github.io.git
     cd itncnitra.github.io
     code .
     ```
-4. Buka terminal baru di Visual Studio Code melalui menu terminal di atas
+4. Buka terminal baru di Visual Studio Code melalui menu terminal di atas, atau gunakan shortcut <kbd>Ctrl</kbd> + <kbd>`</kbd>.
 5. **Opsional (saat ini):** Tarik file `docs/` submodule:
     ```
     git submodule update --remote --rebase

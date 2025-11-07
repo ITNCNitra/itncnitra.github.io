@@ -45,10 +45,14 @@ git config --global user.email "anda@example.com"
     ```
     npm install
     ```
-7. Jalankan/build Tailwind:
+7. run/build Tailwind:
     ```
-    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch      # jalankan saat pengembangan
-    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify (sebelum menambahkan output.css dan commit)
+    # run saat develop
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+    ```
+    ```
+    # run saat build (sebelum git add output.css dan commit)
+    npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify 
     ```
 8. **Opsional:** sinkronkan file lokal dengan remote (GitHub):
     ```
